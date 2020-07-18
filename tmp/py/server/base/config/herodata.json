@@ -1,0 +1,3803 @@
+{
+ "10010": {
+  "0": {
+   "activeskill": [],
+   "att": 211,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 3275,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "5费巨人",
+   "normalskill": [
+    10010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 30,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     3275
+    ],
+    [
+     4,
+     211
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10010,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "1": {
+   "activeskill": [],
+   "att": 211,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 3275,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "5费巨人",
+   "normalskill": [
+    10010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 30,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     3286
+    ],
+    [
+     4,
+     213
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10010,
+     12
+    ],
+    [
+     2,
+     150
+    ]
+   ]
+  },
+  "camp": 1,
+  "clipname": 10010,
+  "desc": "猪八戒手脚并不灵活，但是皮糙肉厚。",
+  "effectrely": [],
+  "name": "猪八戒",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10020": {
+  "0": {
+   "activeskill": [],
+   "att": 325,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 275,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [
+    [
+     20010,
+     0,
+     -20,
+     0
+    ],
+    [
+     20010,
+     0,
+     20,
+     100
+    ]
+   ],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "2费自爆炸弹",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     275
+    ],
+    [
+     4,
+     325
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "极快"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     9,
+     2
+    ]
+   ],
+   "upcost": [
+    [
+     10020,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "2只视死如归的黑暗精灵，只有轰倒建筑时他们才能高兴起来！",
+  "effectrely": [],
+  "name": "黑暗精灵",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10030": {
+  "0": {
+   "activeskill": [],
+   "att": 325,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1615,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "5费皇子",
+   "normalskill": [
+    10030,
+    10032
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1615
+    ],
+    [
+     4,
+     325
+    ],
+    [
+     20,
+     651
+    ],
+    [
+     "2",
+     "1.4"
+    ],
+    [
+     "6",
+     "地面目标"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "雅典娜就是美貌、智慧、力量的集合。她认为智慧最重要。",
+  "effectrely": [],
+  "name": "雅典娜",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10040": {
+  "0": {
+   "activeskill": [],
+   "att": 67,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 110,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [
+    [
+     20020,
+     0,
+     0,
+     0
+    ],
+    [
+     20020,
+     -30,
+     -30,
+     100
+    ],
+    [
+     20020,
+     -30,
+     30,
+     200
+    ]
+   ],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "2费哥布林投矛手",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     110
+    ],
+    [
+     4,
+     67
+    ],
+    [
+     "2",
+     "1.7"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "极快"
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     9,
+     3
+    ]
+   ],
+   "upcost": [
+    [
+     10040,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "弓箭手佣兵特价，雇一送二。",
+  "effectrely": [],
+  "name": "弓箭手",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10050": {
+  "0": {
+   "activeskill": [],
+   "att": 181,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 598,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "4费火枪手",
+   "normalskill": [
+    10050
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     598
+    ],
+    [
+     4,
+     181
+    ],
+    [
+     "2",
+     "1.1"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     3,
+     6
+    ]
+   ],
+   "upcost": [
+    [
+     10050,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "天空中曾经出现10个太阳，后羿射落了9个。证明了地球不是圆的。",
+  "effectrely": [],
+  "name": "后羿",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10060": {
+  "0": {
+   "activeskill": [],
+   "att": 89,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 3,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 190,
+   "landtype": 2,
+   "lifetime": 0,
+   "mainhero": [
+    [
+     20030,
+     0,
+     0,
+     0
+    ],
+    [
+     20030,
+     -30,
+     -30,
+     100
+    ],
+    [
+     20030,
+     -30,
+     30,
+     200
+    ]
+   ],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "3费小苍蝇",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     190
+    ],
+    [
+     4,
+     84
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "快"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     9,
+     3
+    ]
+   ],
+   "upcost": [
+    [
+     10060,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "3只可爱的小精灵，飞在空中可以避开大部分攻击。",
+  "effectrely": [],
+  "name": "光明精灵",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10070": {
+  "0": {
+   "activeskill": [],
+   "att": 167,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 3,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1408,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "3费骑士",
+   "normalskill": [
+    10070
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1382
+    ],
+    [
+     4,
+     167
+    ],
+    [
+     "2",
+     "1.2"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "亚瑟从石头里面拔出一把宝剑，所以成为了王。",
+  "effectrely": [],
+  "name": "亚瑟王",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10080": {
+  "0": {
+   "activeskill": [],
+   "att": 264,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 500,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "4费野猪骑士",
+   "normalskill": [
+    10080
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1408
+    ],
+    [
+     4,
+     264
+    ],
+    [
+     "2",
+     "1.6"
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "极快"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10010,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 1,
+  "clipname": 10010,
+  "desc": "孙悟空借着筋斗云移动极快，冲向任何器械和建筑。很难追上他。",
+  "effectrely": [],
+  "name": "孙悟空",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10090": {
+  "0": {
+   "activeskill": [],
+   "att": 133,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1024,
+   "landtype": 2,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "4费龙宝",
+   "normalskill": [
+    10090
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 20,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1024
+    ],
+    [
+     8,
+     133
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "快"
+    ],
+    [
+     "3",
+     "3.5"
+    ]
+   ],
+   "upcost": [
+    [
+     10020,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "朱雀可以从空中打击大片敌军。",
+  "effectrely": [],
+  "name": "朱雀",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10100": {
+  "0": {
+   "activeskill": [],
+   "att": 67,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 1,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 67,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [
+    [
+     20040,
+     0,
+     0,
+     0
+    ],
+    [
+     20040,
+     -30,
+     -30,
+     100
+    ],
+    [
+     20040,
+     -30,
+     30,
+     200
+    ]
+   ],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "1费小骷髅",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     67
+    ],
+    [
+     4,
+     67
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "快"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     9,
+     3
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "2个无畏的猴子士兵，他们极少独自行动。",
+  "effectrely": [],
+  "name": "猴子士兵",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10110": {
+  "0": {
+   "activeskill": [],
+   "att": 0,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 756,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "4费野蛮人攻城锤",
+   "normalskill": [
+    10110
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 25,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     756
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     51,
+     1
+    ],
+    [
+     52,
+     4
+    ]
+   ],
+   "upcost": [
+    [
+     10040,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 2,
+  "clipname": 10020,
+  "desc": "这只木马看起来人畜无害，领主不会去攻击它。其实里面藏着4位希腊战士。",
+  "effectrely": [],
+  "name": "特洛伊木马",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10120": {
+  "0": {
+   "activeskill": [],
+   "att": 220,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 696,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "5费女巫",
+   "normalskill": [
+    10120
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     696
+    ],
+    [
+     4,
+     220
+    ],
+    [
+     "2",
+     "1.7"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     21,
+     7
+    ],
+    [
+     53,
+     1
+    ]
+   ],
+   "upcost": [
+    [
+     10050,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "为什么白骨精可以召唤猴子士兵而不是白骨士兵？因为她觉得猴子可爱。",
+  "effectrely": [],
+  "name": "白骨精",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10130": {
+  "0": {
+   "activeskill": [],
+   "att": 206,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1030,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "4费黑皇子",
+   "normalskill": [
+    10130,
+    10132
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 199,
+   "showattr": [
+    [
+     1,
+     1030
+    ],
+    [
+     18,
+     199
+    ],
+    [
+     8,
+     206
+    ],
+    [
+     20,
+     412
+    ],
+    [
+     "2",
+     "1.3"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10060,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "女武神在短暂的准备后，会突然加速冲向敌人！",
+  "effectrely": [],
+  "name": "女武神",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10140": {
+  "0": {
+   "activeskill": [],
+   "att": 220,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 2,
+   "hp": 1219,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "4费迫击炮",
+   "normalskill": [
+    10140
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 25,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1219
+    ],
+    [
+     8,
+     220
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "11.5"
+    ],
+    [
+     "19",
+     "3.5"
+    ],
+    []
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 2,
+  "clipname": 10020,
+  "desc": "临时组装的投石车，有点不牢固的感觉",
+  "effectrely": [],
+  "name": "投石车",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10150": {
+  "0": {
+   "activeskill": [],
+   "att": 200,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1060,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "4费狂暴樵夫",
+   "normalskill": [
+    10150
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1060
+    ],
+    [
+     4,
+     200
+    ],
+    [
+     "2",
+     "0.8"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "极快"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "狂暴的维京海盗，无情的砍翻任何挡路的敌人！",
+  "effectrely": [],
+  "name": "维京海盗",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10160": {
+  "0": {
+   "activeskill": [],
+   "att": 160,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 3,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1000,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "3费矿工",
+   "normalskill": [
+    10160
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 3,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1000
+    ],
+    [
+     4,
+     160
+    ],
+    [
+     10,
+     64
+    ],
+    [
+     "2",
+     "1.2"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "快"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10020,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 1,
+  "clipname": 10010,
+  "desc": "哪吒脚踏风火轮，可以直接飞往地图的任何地方。小心！他可是无证飞行！",
+  "effectrely": [],
+  "name": "哪吒",
+  "quality": 3,
+  "resrely": [],
+  "scale": 1
+ },
+ "10170": {
+  "0": {
+   "activeskill": [],
+   "att": 159,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 555,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [
+    [
+     20050,
+     30,
+     0,
+     0
+    ],
+    [
+     20040,
+     0,
+     -30,
+     100
+    ],
+    [
+     20040,
+     0,
+     30,
+     100
+    ],
+    [
+     20040,
+     -60,
+     -30,
+     200
+    ],
+    [
+     20040,
+     -60,
+     30,
+     200
+    ]
+   ],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "5费野蛮人",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     555
+    ],
+    [
+     4,
+     159
+    ],
+    [
+     "2",
+     "1.4"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     9,
+     5
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "他们训练有数，身披盔甲，非常可靠。",
+  "effectrely": [],
+  "name": "希腊战士",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10180": {
+  "0": {
+   "activeskill": [],
+   "att": 0,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 6,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 2793,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "6费骷髅巨人",
+   "normalskill": [
+    10180
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 30,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2793
+    ],
+    [
+     7,
+     957
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10040,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 3,
+  "clipname": 10020,
+  "desc": "熔岩巨人有颗热情的心脏，在它死后会造成热情的爆炸。",
+  "effectrely": [],
+  "name": "熔岩巨人",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10190": {
+  "0": {
+   "activeskill": [],
+   "att": 1100,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 6,
+   "deploytime": 3000,
+   "herotype": 2,
+   "hp": 1200,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "6费电磁炮车",
+   "normalskill": [
+    10190
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1260
+    ],
+    [
+     4,
+     800
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "11.5"
+    ]
+   ],
+   "upcost": [
+    [
+     10050,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 2,
+  "clipname": 10020,
+  "desc": "坚固的重弩车,不可对空。广告上写着它足以强力可以射下巨龙。然而巨龙从来不会站在地面。",
+  "effectrely": [],
+  "name": "弩车",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10200": {
+  "0": {
+   "activeskill": [],
+   "att": 222,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 7,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 3300,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "7费超级骑士",
+   "normalskill": [
+    10200
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [
+    10202
+   ],
+   "puttype": 1,
+   "range": 30,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     3300
+    ],
+    [
+     8,
+     222
+    ],
+    [
+     22,
+     444
+    ],
+    [
+     "2",
+     "1.7"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10060,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 3,
+  "clipname": 10020,
+  "desc": "雷神登场时会重击周围，他会造成巨量范围伤害。最好离他远点！",
+  "effectrely": [],
+  "name": "雷神",
+  "quality": 3,
+  "resrely": [],
+  "scale": 1
+ },
+ "10210": {
+  "0": {
+   "activeskill": [],
+   "att": 99,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 167,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [
+    [
+     20060,
+     0,
+     0,
+     0
+    ],
+    [
+     20060,
+     -30,
+     -30,
+     100
+    ],
+    [
+     20060,
+     -30,
+     30,
+     200
+    ]
+   ],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "2费哥布林",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     167
+    ],
+    [
+     4,
+     99
+    ],
+    [
+     "2",
+     "1.1"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "极快"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     9,
+     3
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "三个近战的侏儒，身形矮小，行动迅捷。",
+  "effectrely": [],
+  "name": "刺客小队",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10220": {
+  "0": {
+   "activeskill": [],
+   "att": 254,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 6,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 2544,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "6费皇家巨人",
+   "normalskill": [
+    10220
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 30,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2544
+    ],
+    [
+     4,
+     254
+    ],
+    [
+     "2",
+     "1.7"
+    ],
+    [
+     "6",
+     "建筑或器械"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 1,
+  "clipname": 10020,
+  "desc": "巨猿唯一的爱好就是用石头砸烂敌人建筑。他到底哪里找来这么多石头？",
+  "effectrely": [],
+  "name": "巨猿",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "10230": {
+  "0": {
+   "activeskill": [],
+   "att": 234,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 598,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "5费法师",
+   "normalskill": [
+    10230
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     598
+    ],
+    [
+     8,
+     234
+    ],
+    [
+     "2",
+     "1.4"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "5.5"
+    ]
+   ],
+   "upcost": [
+    [
+     10020,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "女巫擅长奥秘与法术，她能轻易击败一大群敌人，却没法从衣柜里选出合穿的衣服。",
+  "effectrely": [],
+  "name": "女巫",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10240": {
+  "0": {
+   "activeskill": [],
+   "att": 798,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 2,
+   "hp": 1396,
+   "landtype": 2,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "5费气球",
+   "normalskill": [
+    10240
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 20,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1396
+    ],
+    [
+     4,
+     798
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     "6",
+     "建筑或器械"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 3,
+  "clipname": 10010,
+  "desc": "侏儒发明了蒸汽技术和炸弹技术，并把他们都应用在蒸汽飞艇上",
+  "effectrely": [],
+  "name": "蒸汽飞艇",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10250": {
+  "0": {
+   "activeskill": [],
+   "att": 75,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 3,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 590,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "3费冰法",
+   "normalskill": [
+    10250
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     590
+    ],
+    [
+     8,
+     75
+    ],
+    [
+     "2",
+     "1.7"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "5.5"
+    ],
+    [
+     "13",
+     "2.5"
+    ]
+   ],
+   "upcost": [
+    [
+     10040,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "每个人看见冰雪公主时都会说“哇，真酷！”",
+  "effectrely": [],
+  "name": "冰雪公主",
+  "quality": 3,
+  "resrely": [],
+  "scale": 1
+ },
+ "10260": {
+  "0": {
+   "activeskill": [],
+   "att": 167,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 3,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 742,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "3费加农炮",
+   "normalskill": [
+    10260
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     742
+    ],
+    [
+     4,
+     167
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "upcost": [
+    [
+     10050,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "斯巴达的盾牌可以顶住任何伤害，除非他们真的顶不住了！",
+  "effectrely": [],
+  "name": "斯巴达农夫",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10270": {
+  "0": {
+   "activeskill": [],
+   "att": 95,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 954,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "4费特斯拉电磁塔",
+   "normalskill": [
+    10270
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     954
+    ],
+    [
+     4,
+     95
+    ],
+    [
+     "2",
+     "0.6"
+    ],
+    [
+     "6",
+     "空中和地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "5.5"
+    ]
+   ],
+   "upcost": [
+    [
+     10060,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "他躲在盾牌后面，用香蕉砸对手。他不一定能打败对手，但一定能气死对手。",
+  "effectrely": [],
+  "name": "吵闹的猴子",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10280": {
+  "0": {
+   "activeskill": [],
+   "att": 259,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 8,
+   "deploytime": 3000,
+   "herotype": 1,
+   "hp": 4256,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "8费石头人",
+   "normalskill": [
+    10280
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 30,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     4256
+    ],
+    [
+     4,
+     259
+    ],
+    [
+     "2",
+     "2.5"
+    ],
+    [
+     "6",
+     "建筑与器械"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "近战"
+    ],
+    [
+     19,
+     3
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 3,
+  "clipname": 10020,
+  "desc": "泰坦缓慢又坚硬，几乎没有任何攻击能有效对抗泰坦。",
+  "effectrely": [],
+  "name": "泰坦",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10290": {
+  "0": {
+   "activeskill": [],
+   "att": 678,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 7,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 3125,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 5,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "7费大皮卡",
+   "normalskill": [
+    10290
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 25,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     3125
+    ],
+    [
+     4,
+     678
+    ],
+    [
+     "2",
+     "1.8"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 2,
+  "clipname": 10020,
+  "desc": "斯巴达国王身披重甲，佩戴重剑。动作有点缓慢。",
+  "effectrely": [],
+  "name": "斯巴达国王",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "10300": {
+  "0": {
+   "activeskill": [],
+   "att": 221,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 4,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 1654,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "4费武神",
+   "normalskill": [
+    10300
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     1654
+    ],
+    [
+     8,
+     221
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10020,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "巨狼会用他锋利的爪子，范围攻击前方敌人。",
+  "effectrely": [],
+  "name": "巨狼",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "10310": {
+  "0": {
+   "activeskill": [],
+   "att": 100,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 994,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 25,
+   "name1": "2费冰人",
+   "normalskill": [
+    10310
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     994
+    ],
+    [
+     4,
+     70
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "慢"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "他只是过来打酱油的。",
+  "effectrely": [],
+  "name": "沙和尚",
+  "quality": 1,
+  "resrely": [],
+  "scale": 1
+ },
+ "19020": {
+  "0": {
+   "activeskill": [],
+   "att": 0,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 2,
+   "cost": 2,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 1820,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 45,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     3275
+    ],
+    [
+     4,
+     211
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 19020,
+  "desc": "",
+  "effectrely": [
+   19020,
+   19021,
+   19022,
+   19023
+  ],
+  "name": "水晶",
+  "quality": 3,
+  "resrely": [],
+  "scale": 1
+ },
+ "20010": {
+  "0": {
+   "activeskill": [],
+   "att": 325,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 275,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "2费自爆炸弹",
+   "normalskill": [
+    20010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [],
+   "upcost": [
+    [
+     10020,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "",
+  "effectrely": [
+   30010
+  ],
+  "name": "黑暗精灵",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "20020": {
+  "0": {
+   "activeskill": [],
+   "att": 67,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 110,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "2费哥布林投矛手",
+   "normalskill": [
+    20020
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [],
+   "upcost": [
+    [
+     10040,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "",
+  "effectrely": [],
+  "name": "弓箭手",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "20030": {
+  "0": {
+   "activeskill": [],
+   "att": 89,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 3,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 190,
+   "landtype": 2,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 42,
+   "name1": "3费小苍蝇",
+   "normalskill": [
+    20030
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [],
+   "upcost": [
+    [
+     10060,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "",
+  "effectrely": [],
+  "name": "光明精灵",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "20040": {
+  "0": {
+   "activeskill": [],
+   "att": 67,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 1,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 67,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "1费小骷髅",
+   "normalskill": [
+    20040
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     67
+    ],
+    [
+     4,
+     67
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "快"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "",
+  "effectrely": [],
+  "name": "猴子士兵",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "20050": {
+  "0": {
+   "activeskill": [],
+   "att": 159,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 5,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 555,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 30,
+   "name1": "5费野蛮人",
+   "normalskill": [
+    20050
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     555
+    ],
+    [
+     4,
+     159
+    ],
+    [
+     "2",
+     "1.4"
+    ],
+    [
+     "6",
+     "地面"
+    ],
+    [
+     "5",
+     "中等"
+    ],
+    [
+     "3",
+     "近战"
+    ]
+   ],
+   "upcost": [
+    [
+     10030,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10010,
+  "desc": "",
+  "effectrely": [],
+  "name": "希腊战士",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "20060": {
+  "0": {
+   "activeskill": [],
+   "att": 99,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 1,
+   "cost": 2,
+   "deploytime": 1000,
+   "herotype": 1,
+   "hp": 167,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 1,
+   "maxlv": 12,
+   "movespeed": 60,
+   "name1": "2费哥布林",
+   "normalskill": [
+    20060
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 15,
+   "shield": 0,
+   "showattr": [],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 0,
+  "clipname": 10020,
+  "desc": "",
+  "effectrely": [],
+  "name": "刺客小队",
+  "quality": 0,
+  "resrely": [],
+  "scale": 1
+ },
+ "99010": {
+  "0": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 3,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "1": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "10": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "11": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "2": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "3": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "4": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "5": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "6": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "7": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "8": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "9": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 0,
+   "cost": 1,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 1,
+  "clipname": 10010,
+  "desc": "诸葛亮是位睿智的军师，同时还是个优雅的君子。在城里，他的肖像画可是需要排队抢购的。",
+  "effectrely": [],
+  "name": "诸葛亮",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "99020": {
+  "0": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 3,
+   "cost": 0,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 2,
+  "clipname": 10010,
+  "desc": "别被丹妮美丽的外观迷惑了，打起仗来，她和她的龙宝宝可是毫不留情。",
+  "effectrely": [],
+  "name": "丹妮",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ },
+ "99030": {
+  "0": {
+   "activeskill": [],
+   "att": 150,
+   "attackspeed": 500,
+   "childhero": [],
+   "classlv": 3,
+   "cost": 0,
+   "deploytime": 0,
+   "herotype": 3,
+   "hp": 2534,
+   "landtype": 1,
+   "lifetime": 0,
+   "mainhero": [],
+   "mass": 100,
+   "maxlv": 12,
+   "movespeed": 0,
+   "name1": "",
+   "normalskill": [
+    99010
+   ],
+   "postype": 0,
+   "preview": [
+    1
+   ],
+   "pskill": [],
+   "puttype": 1,
+   "range": 60,
+   "shield": 0,
+   "showattr": [
+    [
+     1,
+     2534
+    ],
+    [
+     23,
+     1820
+    ],
+    [
+     "2",
+     "1.5"
+    ],
+    [
+     4,
+     150
+    ]
+   ],
+   "upcost": [
+    [
+     10070,
+     10
+    ],
+    [
+     2,
+     50
+    ]
+   ]
+  },
+  "camp": 3,
+  "clipname": 10010,
+  "desc": "据说白胡子是因为太爱吃海鲜才当海盗的。他非常乐于助人，很喜欢与大家分享他煮的美味煎鱼！",
+  "effectrely": [],
+  "name": "白胡子",
+  "quality": 2,
+  "resrely": [],
+  "scale": 1
+ }
+}

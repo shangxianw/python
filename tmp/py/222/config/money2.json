@@ -1,0 +1,19 @@
+{
+	"cadjpy":
+	{
+		"point":0.00001,
+		"fileName":"CADJPY1440.csv"
+	},
+
+	"usdcad":
+	{
+		"point":0.00001,
+		"fileName":"USDCAD1440.csv"
+	},
+
+	"usdjpy":
+	{
+		"point":0.001,
+		"fileName":"USDJPY1440.csv"
+	}
+}

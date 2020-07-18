@@ -1,0 +1,18 @@
+module game
+{
+	export xxxItem extends DataBase
+	{
+		public Destroy()
+		{
+			super.Destroy();
+		}
+	}
+}
+
+
+
+
+
+
+
+

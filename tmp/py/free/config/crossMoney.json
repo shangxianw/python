@@ -1,0 +1,43 @@
+{
+	"eurusd":
+	{
+		"point":0.00001,
+		"fileName":"EURUSD1440.csv"
+	},
+
+	"gbpusd":
+	{
+		"point":0.00001,
+		"fileName":"GBPUSD1440.csv"
+	},
+
+	"audusd":
+	{
+		"point":0.00001,
+		"fileName":"AUDUSD1440.csv"
+	},
+
+	"nzdusd":
+	{
+		"point":0.00001,
+		"fileName":"NZDUSD1440.csv"
+	},
+
+	"usdcad":
+	{
+		"point":0.00001,
+		"fileName":"USDCAD1440.csv"
+	},
+
+	"usdchf":
+	{
+		"point":0.00001,
+		"fileName":"USDCHF1440.csv"
+	},
+
+	"usdjpy":
+	{
+		"point":0.001,
+		"fileName":"USDJPY1440.csv"
+	}
+}

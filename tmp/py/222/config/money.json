@@ -1,0 +1,169 @@
+{
+	"eurusd":
+	{
+		"point":0.00001,
+		"fileName":"EURUSD1440.csv"
+	},
+
+	"gbpusd":
+	{
+		"point":0.00001,
+		"fileName":"GBPUSD1440.csv"
+	},
+
+	"audusd":
+	{
+		"point":0.00001,
+		"fileName":"AUDUSD1440.csv"
+	},
+
+	"nzdusd":
+	{
+		"point":0.00001,
+		"fileName":"NZDUSD1440.csv"
+	},
+
+	"usdcad":
+	{
+		"point":0.00001,
+		"fileName":"USDCAD1440.csv"
+	},
+
+	"usdchf":
+	{
+		"point":0.00001,
+		"fileName":"USDCHF1440.csv"
+	},
+
+	"usdjpy":
+	{
+		"point":0.001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"eurgbp":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"	
+	},
+
+	"euraud":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"eurnzd":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"eurcad":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"eurchf":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"eurjpy":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"gbpaud":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"gbpnzd":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"gbpcad":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"gbpchf":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"gbpjpy":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"audnzd":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"audcad":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"audchf":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"audjpy":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"nzdcad":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"nzdchf":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"nzdjpy":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"cadchf":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"cadjpy":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	},
+
+	"chfjpy":
+	{
+		"point":0.00001,
+		"fileName":"USDJPY1440.csv"
+	}
+}
