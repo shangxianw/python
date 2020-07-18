@@ -9,7 +9,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-path1 = resource_path(os.path.join("resource","config.txt"))
+path1 = resource_path("./resource/config.txt")
 with open(path1, "r", encoding="utf-8") as f:
     content = f.read()
     print(content)

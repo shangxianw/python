@@ -27,6 +27,6 @@ missing module named 'java.lang' - imported by platform (delayed, optional), D:\
 missing module named vms_lib - imported by platform (delayed, conditional, optional), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level)
 missing module named termios - imported by tty (top-level), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level), getpass (optional)
 missing module named grp - imported by tarfile (optional), shutil (optional), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level)
+missing module named 'org.python' - imported by copy (optional), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level), xml.sax (delayed, conditional)
 missing module named pwd - imported by posixpath (delayed, conditional), tarfile (optional), shutil (optional), http.server (delayed, optional), webbrowser (delayed), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level), netrc (delayed, conditional), getpass (delayed)
 missing module named _dummy_threading - imported by dummy_threading (optional), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level)
-missing module named 'org.python' - imported by copy (optional), D:\wsx\python\tmp\dabaoziyuan\demo.py (top-level), xml.sax (delayed, conditional)
