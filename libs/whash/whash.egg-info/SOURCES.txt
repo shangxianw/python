@@ -1,0 +1,7 @@
+README.md
+setup.py
+whash/__init__.py
+whash.egg-info/PKG-INFO
+whash.egg-info/SOURCES.txt
+whash.egg-info/dependency_links.txt
+whash.egg-info/top_level.txt
