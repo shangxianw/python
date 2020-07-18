@@ -1,0 +1,17 @@
+{
+    "egret.TouchEvent.TOUCH_TAP":{
+        "func":"On[xxx]TouchTap"
+    },
+    
+    "egret.TouchEvent.TOUCH_BEGIN":{
+        "func":"On[xxx]TouchBegin"
+    },
+
+    "eui.ItemUIEvent.ITEM_TAP":{
+        "func":"On[xxx]ItemTap"
+    },
+
+    "egret.TouchEvent.TOUCH_END":{
+        "func":"On[xxx].TouchEnd"
+    }
+}

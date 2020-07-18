@@ -1,0 +1,15 @@
+private newTimeEff:ECSC.EffectBase;
+private newEffGroup:eui.Group;
+private ShowNewTween(show:boolean)
+{
+	if(this.newTimeEff != null)
+	{
+		RenderUtils.DestroyEffect2(SceneTypeConst.Home, this.newTimeEff);
+		this.newTimeEff = null;
+	};
+	if(show == true)
+	{
+		this.newTimeEff = RenderUtils.CreateEffect(SceneTypeConst.Home, 2505, 0, 0);
+		this.newEffGroup.addChild(this.newTimeEff);
+	}
+}

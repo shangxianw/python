@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroInfoPanel1Skin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:game="game.*" xmlns:ns1="*">
+	<!--<e:Image source="卡组07-卡牌图对位置_jpg" visible="false"/>-->
+	<e:Group id="root" left="0" right="0" top="0" bottom="0">
+		<e:Image source="bg_kz_jsdi" scaleX="2" scaleY="2" verticalCenter="39" horizontalCenter="-208" touchEnabled="false" alpha="0.9"/>
+		<e:Image source="bg_kz_jsdi" scaleX="2" scaleY="2" verticalCenter="39" horizontalCenter="208" touchEnabled="false" alpha="0.9"/>
+		<e:Image id="bigModel" y="165" x="81.68" touchEnabled="false" source=""/>
+		<e:Group touchEnabled="false" width="535" height="644" horizontalCenter="50.5" verticalCenter="27" x="373" y="66" scaleX="1" scaleY="1">
+			<e:Image source="bg_lz_tc" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" scale9Grid="39,37,34,26" left="0" right="0" top="0" bottom="0"/>
+			<e:Image x="249.66" y="74" source="bg_kz_kpxx_szd01" scale9Grid="6,7,9,45" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" height="78" width="122"/>
+			<e:Image x="386.36" y="74" source="bg_kz_kpxx_szd01" scale9Grid="6,7,9,45" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" height="78" width="122"/>
+			<e:Image x="25" y="54" width="485" touchEnabled="false" source="bg_grzl_xx" scale9Grid="6,0,40,3"/>
+			<e:Image y="535.32" width="485" touchEnabled="false" horizontalCenter="0" source="bg_grzl_xx" scale9Grid="6,0,40,3"/>
+			<e:Image id="img1" width="135" x="243.34" y="67" scale9Grid="17,18,105,8" anchorOffsetX="0" source="bg_kz_pzs_00"/>
+			<e:Image id="img2" width="135" x="380" y="67.01" scale9Grid="17,18,105,8" anchorOffsetX="0" source="bg_kz_pzs_00"/>
+			<e:Scroller width="280" x="245.5" y="154.48" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" height="80" scrollPolicyV="on">
+			<e:Group x="-10">
+				<e:Label id="desc" text="" fontFamily="desc_font" anchorOffsetX="0" textAlign="left" touchEnabled="false" scaleX="1" scaleY="1" size="22" textColor="0x607da5" lineSpacing="4" top="5" width="265" x="0"/>
+			</e:Group>
+			</e:Scroller>
+			<e:Group id="tipGroup" x="324" y="561">
+			<e:Image source="bg_kz_kpxx_szd01" scale9Grid="6,7,9,45" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" height="50" width="150" scaleX="1" scaleY="1" x="0"/>
+			<e:Label text="升级可获得" fontFamily="desc_font" anchorOffsetX="0" textAlign="left" size="18" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetY="0" x="40.34" y="3" textColor="0x607da5"/>
+				<e:Group y="22.99" horizontalCenter="12">
+					<e:Image source="icon_top_exp" scaleX="0.5" scaleY="0.5" touchEnabled="false" x="-6.329999999999927" y="-11"/>
+					<e:BitmapLabel id="addExp" height="20" anchorOffsetX="0" anchorOffsetY="0" text="+00" scaleX="0.8000000000000002" scaleY="0.8000000000000002" font="exp_num_font_fnt" letterSpacing="-2" textAlign="center" touchEnabled="false" x="24" y="-5"/>
+					<e:layout>
+						<e:HorizontalLayout verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Label id="title" text="我是标题11" y="18.63" fontFamily="main_font" anchorOffsetX="0" width="506" textAlign="center" touchEnabled="false" textColor="0x327fb0" size="28" scaleX="1" scaleY="1" horizontalCenter="0.5"/>
+			<e:Label id="tit1" text="类型" fontFamily="desc_font" anchorOffsetX="0" textAlign="left" size="24" scaleX="1" scaleY="1" y="78.66" touchEnabled="false" x="263.12" anchorOffsetY="0" textColor="0x445a7b"/>
+			<e:Label id="tit2" text="品质" fontFamily="desc_font" anchorOffsetX="0" textAlign="left" size="24" scaleX="1" scaleY="1" y="78.66" touchEnabled="false" x="395.47" anchorOffsetY="0" textColor="0x445a7b"/>
+			<e:Label id="quality" text="" fontFamily="desc_font" anchorOffsetX="0" textAlign="left" bold="true" size="24" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetY="0" textColor="0x327fb0" y="115.99" x="395.32"/>
+			<e:Label id="camp" text="" fontFamily="desc_font" anchorOffsetX="0" textAlign="left" bold="true" size="24" scaleX="1" scaleY="1" touchEnabled="false" anchorOffsetY="0" textColor="0x327FB0" y="115.99" x="261.32"/>
+			<game:HeroKa11 id="heroInfo" x="24.66" y="64.99" skinName="HeroKa11Skin"/>
+			<game:HeroInfoUpgradeBtn id="upgradeBtn" height="66" skinName="HeroInfoUpgradeBtnSkin" y="589" anchorOffsetX="75" anchorOffsetY="33" touchEnabled="true" touchChildren="false" horizontalCenter="0"/>
+			<e:Group id="attrGroup" height="260" y="257" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="2"/>
+			</e:layout>
+			</e:Group>
+			<game:ProgressExp1 id="progExp" x="36.5" y="205" skinName="ProgressExp1Skin"/>
+			<game:AttrTipsItem id="attrTips" skinName="AttrTipsItemSkin" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<!--<e:Image source="卡组04-05军队未获得_jpg" visible="false"/>-->
+</e:Skin>

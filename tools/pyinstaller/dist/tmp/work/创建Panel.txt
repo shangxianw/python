@@ -1,0 +1,33 @@
+module game
+{
+	export class xxxPanelData extends DataBase
+	{
+		public Destroy()
+		{
+			super.Destroy();
+		}
+	}
+
+	export class xxxPanel extends UIComponentBase
+	{
+
+		public info:xxxPanelData;
+		public constructor()
+		{
+			super("xxxPanelSkin", true);
+		}
+
+		public Destroy()
+		{
+			if(this.info != null)
+				this.info.Destroy();
+		}
+
+		public InitData(data:xxxPanelData)
+		{
+			if(data == null)
+				return;
+			this.info = data;
+		}
+	}
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArenaMainPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:game="game.*" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="aaa">
+			<tween:TweenItem target="{classLvIcon}">
+				<tween:To duration="500" ease="sineIn">
+					<tween:props>
+						<e:Object y="{-20}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500" ease="quadOut">
+					<tween:props>
+						<e:Object y="{2}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<game:MainPanelBg id="mainBg" skinName="MainPanelBgSkin" currentState="least"/>
+	<e:Scroller id="scro" left="0" right="0" top="0" bottom="0" scrollPolicyV="off" scrollPolicyH="on" touchEnabled="false" bounces="true" throwSpeed="0">
+		<e:Group touchEnabled="false">
+			<e:Group id="totalGroup" scaleX="1" scaleY="1" width="3840" height="720" y="0" touchChildren="true" touchEnabled="false">
+				<e:Group id="contentGroup" scaleX="1" scaleY="1" touchChildren="true" width="1280" x="0" height="720" y="0" touchEnabled="false">
+					<e:Group left="0" right="0" top="66" bottom="0" x="0" y="66" scaleX="1" scaleY="1"/>
+					<e:Image x="398.33000000000004" y="21.5" source="bg_jjc_btdi" scale9Grid="38,9,9,57" anchorOffsetX="0" width="485" scaleX="1" scaleY="1"/>
+					<ns1:SButton id="infoBtn" label="" horizontalCenter="207" verticalCenter="-306" x="821" y="27" scaleX="1" scaleY="1" visible="false">
+					<ns1:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="button_kp_xx_02"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</ns1:skinName>
+					</ns1:SButton>
+					<e:Group id="infoGroup" y="98.66" width="300" height="300" horizontalCenter="-398" x="79" scaleX="1" scaleY="1">
+					<e:Image anchorOffsetX="0" source="bg_jjc_tbdi" scaleX="1" scaleY="1" y="162"/>
+						<e:Label id="classLb" text="0阶段竞技场" y="236" fontFamily="main_font" horizontalCenter="-3" size="30" textColor="0x185f9a"/>
+						<e:Image anchorOffsetX="0" scaleX="1" scaleY="1" source="bg_jjc_tbshine" horizontalCenter="0.5" y="17"/>
+						<e:Image id="classLvIcon" anchorOffsetX="0" scaleX="1" scaleY="1" x="79" y="28" source="icon_jjcdj_02" width="140" height="140"/>
+					</e:Group>
+					<game:ArenaMainPanelProgress id="progressModule" y="399.02000000000004" skinName="ArenaMainPanelProgressSkin" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+					<ns1:SButton id="rightBtn" label="" verticalCenter="43" horizontalCenter="582" scaleX="-1" x="1280" y="361" scaleY="1">
+						<ns1:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="bg_jjc_jt"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</ns1:skinName>
+					</ns1:SButton>
+					<ns1:SButton id="leftBtn" label="" verticalCenter="43" horizontalCenter="-582" x="0" y="361" scaleX="1" scaleY="1">
+						<ns1:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="bg_jjc_jt"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+						</ns1:skinName>
+					</ns1:SButton>
+					<e:Group id="kaGroup" x="424.33" y="113" width="750" height="288" scaleX="1" scaleY="1">
+					<e:Image source="bg_com_fgd" scale9Grid="9,11,32,22" left="0" right="0" top="0" bottom="0"/>
+					<e:Label id="tips" text="解锁卡牌：（开放卡牌新等级，可升到X级）" y="12.87" size="26" fontFamily="desc_font" stroke="1" strokeColor="0x276b3d" textColor="0xd4ecff" horizontalCenter="0.5"/>
+					<e:Scroller id="scroList" width="767" height="235" x="14" y="46" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+						<e:List id="list" x="25.66" y="43.29" itemRendererSkinName="HeroKa11Skin" scaleX="0.8000000000000002" scaleY="0.8000000000000002" touchEnabled="false">
+							<e:ArrayCollection>
+							<e:Array>
+								<!--<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>-->
+							</e:Array>
+							</e:ArrayCollection>
+							<e:layout>
+							<e:TileLayout verticalGap="6" requestedColumnCount="4" horizontalGap="14"/>
+							</e:layout>
+						</e:List>
+					</e:Scroller>
+					</e:Group>
+					<e:Group id="titleGroup" y="34.98" horizontalCenter="45">
+						<e:Label id="title" text="绿野平原污渍" fontFamily="main_font" size="40" textColor="0xe3f4ff" stroke="2" strokeColor="0x256f99" scaleX="1" scaleY="1"/>
+						<e:Group id="cupsGroup" scaleX="1" scaleY="1">
+							<e:Image source="bg_dz_jjc_di06" x="65" y="46" scaleX="1" scaleY="1"/>
+							<e:Label id="unLockCups" text="0" fontFamily="main_font" x="65" y="46" scaleX="1" scaleY="1" size="36" textColor="0xf2d45e" stroke="1" strokeColor="0xb56108"/>
+							<e:layout>
+							<e:HorizontalLayout verticalAlign="middle" gap="2"/>
+							</e:layout>
+						</e:Group>
+						<e:layout>
+							<e:HorizontalLayout gap="20"/>
+						</e:layout>
+					</e:Group>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<!--<e:Image source="对战09-竞技场03_jpg" visible="false"/>-->
+</e:Skin>
