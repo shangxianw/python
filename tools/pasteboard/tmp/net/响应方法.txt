@@ -1,0 +1,4 @@
+public static S2CXXXXXXX(cmdDataBA:egret.ByteArray)
+{
+	let info = Protocol.XXXXXXX.decode(cmdDataBA.bytes);
+}

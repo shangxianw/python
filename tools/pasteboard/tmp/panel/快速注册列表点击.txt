@@ -1,0 +1,1 @@
+this.AddEvent(this.list, eui.ItemTapEvent.ITEM_TAP, this.OnListTap, this);

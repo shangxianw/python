@@ -1,0 +1,3 @@
+let sendData = new Protocol.AllBox_Request();
+let sendByte = Protocol.AllBox_Request.encode(sendData).finish();
+SocketManager.GetInstance().SendMessage(Protocol.MessageID.ALL_BOX_REQ, sendByte);

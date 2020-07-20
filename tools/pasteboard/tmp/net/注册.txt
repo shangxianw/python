@@ -1,0 +1,1 @@
+NetManager.RegisterCallback(Protocol.MessageID.xxxxxxx, xxxxxxx);
