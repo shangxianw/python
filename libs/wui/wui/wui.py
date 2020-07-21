@@ -3,6 +3,7 @@ import tkinter as tk
 ## ---------------------------------------------------------------------- 事件名称
 class TouchEvent:
     TOUCH_TAP = "<Button-1>"
+    DOUBLE_TAP = "<Button-2>"
 
 class FocusEvent:
     FOCUS_IN = "<FocusIn>"
