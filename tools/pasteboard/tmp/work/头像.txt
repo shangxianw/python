@@ -1,0 +1,1 @@
+DataUtil.GetHeadIconAndFrame(info.rolePic)[0]

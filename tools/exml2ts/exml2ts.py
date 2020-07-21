@@ -45,7 +45,7 @@ class Demo:
         self.exmlPath = ""
         
         # 初始化事件
-        self.eventPath = "D:\\wsx\\pytools\\exml2ts\\config\\event.json"
+        self.eventPath = "D:\\wsx\\python\\tools\\exml2ts\\config\\event.json"
         self.eventJson = None
         self.eventNameArray = []
         with open(self.eventPath, "r", encoding="utf-8") as f:
@@ -55,7 +55,7 @@ class Demo:
                 self.eventNameArray.append(key)
         
         # self.templateDir = ".\\config\\template\\"
-        self.templateDir = "D:\\wsx\\pytools\\exml2ts\\config\\template\\" # 为啥用相对不行
+        self.templateDir = "D:\\wsx\\python\\tools\\exml2ts\\config\\template\\" # 为啥用相对不行
         self.templateFileArray = []
         self.currTemplateIndex = 0
         
