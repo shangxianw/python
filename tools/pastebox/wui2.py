@@ -7,6 +7,7 @@ class Color:
     LightBlue = "light blue"
     Grey = "grey"
     LightGrey = "light grey"
+    Black = "black"
 
 ## ---------------------------------------------------------------------- 事件名称
 class TouchEvent:
@@ -223,6 +224,14 @@ class InputArea(tk.Text, EventBase, StyleBase):
     @selectBg.setter
     def selectBg(self, value:str):
         self["selectbackground"] = value
+    
+    @property
+    def selectFg(self):
+        return self["selectforeground"]
+
+    @selectFg.setter
+    def selectFg(self, value:str):
+        self["selectforeground"] = value
 
 ## ---------------------------------------------------------------------- 单行输入框
 class InputBox(tk.Entry, EventBase, StyleBase):
