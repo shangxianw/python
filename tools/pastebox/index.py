@@ -7,6 +7,7 @@ class Main:
         os.chdir(os.path.dirname(os.path.abspath(__file__)))
         self.baseDir = "./data/"
         self.folderArray = []
+        self.fileArray = []
 
         self.win = wui.Panel()
         self.win.setTitle("wsx的粘贴板")
@@ -46,14 +47,28 @@ class Main:
         self.box3.addEventListener(wui.TouchEvent.DOUBLE_TAP, self.OnBox3DoubleTap)
     
     def showBox1Content(self):
+        self.folderArray = []
         fileArray = os.listdir(self.baseDir)
         for file in fileArray:
-            if os.path.isfile(file) is False:
+            path = self.baseDir + file
+            if os.path.isdir(path) is True:
                 self.folderArray.append(file)
         self.box1.dataProvider = self.folderArray
     
-    def showBox2Content(self, folder):
-        pass
+    def showBox2Content(self, dir:str):
+        self.fileArray = []
+        fileArray = os.listdir(dir)
+        for file in fileArray:
+            path = dir + file
+            if os.path.isfile(path) is True:
+                self.fileArray.append(file)
+        self.box2.dataProvider = self.fileArray
+    
+    def showBox3Content(self, path:str):
+        self.box3.text2 = ""
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+            self.setBox3Content(content)
 
     def setBox3EditStyle(self, canEdit:bool):
         if canEdit is False:
@@ -64,18 +79,35 @@ class Main:
             self.box3.editable = True
             self.box3.bg = wui.Color.White
             self.box3.selectBg = wui.Color.LightBlue
+    
+    def setBox3Content(self, content:bool):
+        self.box3.editable = True
+        self.box3.text2 = content
+        self.box3.editable = False
 
     ## ---------------------------------------------------------------------- Event
     ## ---------------------------------------------------------------------- 点击左侧
     def OnBox1ItemTap(self, e):
-        pass
+        if len(self.box1.selectIndex) <= 0:
+            return
+        folderName = self.folderArray[self.box1.selectIndex[0]]
+        dir = self.baseDir + folderName + "/"
+        self.showBox2Content(dir)
+        self.setBox3Content("")
     
     ## ---------------------------------------------------------------------- 点击中间
     def OnBox2ItemTap(self, e):
-        pass
+        if len(self.box2.selectIndex) <= 0:
+            return
+        folderName = self.folderArray[self.box1.selectIndex[0]]
+        fileName = self.fileArray[self.box2.selectIndex[0]]
+        path = self.baseDir + folderName + "/" + fileName
+        self.showBox3Content(path)
     
     ## ---------------------------------------------------------------------- 双击右侧
     def OnBox3DoubleTap(self, e):
+        if len(self.box1.selectIndex) <= 0 or len(self.box2.selectIndex) <= 0:
+            return
         flag = bool(1 - self.box3.editable)
         self.box3.editable = flag
         self.setBox3EditStyle(flag)
@@ -84,11 +116,6 @@ class Main:
         self.box1.removeEventListener(wui.Event.ITEM_SELECT)
         self.box2.removeEventListener(wui.Event.ITEM_SELECT)
         self.box3.removeEventListener(wui.TouchEvent.DOUBLE_TAP)
-
-        for info in self.folderArray:
-            info.destroy()
-            info = None
-        self.folderArray = None
 
 if __name__ == "__main__":
     d = Main()
