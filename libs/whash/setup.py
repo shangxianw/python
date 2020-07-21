@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="whash",
-    version="1.0.2",
+    version="1.0.3",
     author="ShangXian Wang",
     author_email="997049907@qq.om",
     description="开放组件",

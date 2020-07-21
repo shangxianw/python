@@ -1,5 +1,13 @@
 import tkinter as tk
 
+## ---------------------------------------------------------------------- 颜色属性
+class Color:
+    White = "white"
+    Blue = "blue"
+    LightBlue = "light blue"
+    Grey = "grey"
+    LightGrey = "light grey"
+
 ## ---------------------------------------------------------------------- 事件名称
 class TouchEvent:
     TOUCH_TAP = "<Button-1>"
@@ -195,10 +203,26 @@ class InputArea(tk.Text, EventBase, StyleBase):
 
     @editable.setter
     def editable(self, value:bool):
-        if editable is True:
+        if value is True:
             self["state"] = "normal"
         else:
-            stateStr = "disabled"
+            self["state"] = "disabled"
+    
+    @property
+    def bg(self):
+        return self["bg"]
+
+    @bg.setter
+    def bg(self, value:str):
+        self["bg"] = value
+    
+    @property
+    def selectBg(self):
+        return self["selectbackground"]
+
+    @selectBg.setter
+    def selectBg(self, value:str):
+        self["selectbackground"] = value
 
 ## ---------------------------------------------------------------------- 单行输入框
 class InputBox(tk.Entry, EventBase, StyleBase):
