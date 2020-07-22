@@ -100,6 +100,12 @@ def alert(title:str, content:str):
     import tkinter.messagebox as mb
     mb.showinfo(title, content)
 
+## ---------------------------------------------------------------------- 带输入框的弹窗
+def askAlert(title:str, content:str):
+    import tkinter.simpledialog as dialog
+    answer = dialog.askstring(title, content)
+    return answer
+
 ## ---------------------------------------------------------------------- 拖拽
 ## 回调函数中参数为 文件绝对路径
 def dragfiles(component, cbFn):
