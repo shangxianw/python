@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wui",
-    version="1.1.4",
+    version="1.1.6",
     author="ShangXian Wang",
     author_email="997049907@qq.om",
     description="开放组件",
