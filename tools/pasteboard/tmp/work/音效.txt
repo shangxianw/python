@@ -1,0 +1,1 @@
+game.SoundManager.Ins().PlayEffect();

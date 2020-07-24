@@ -95,6 +95,12 @@ def openFileDialog():
     path = fd.askopenfilename()
     return path
 
+## ---------------------------------------------------------------------- 打开文件夹
+def openDirDialog():
+    import tkinter.filedialog as fd
+    dir = fd.askdirectory()
+    return dir
+
 ## ---------------------------------------------------------------------- 弹窗
 def alert(title:str, content:str):
     import tkinter.messagebox as mb
@@ -258,7 +264,7 @@ class InputBox(tk.Entry, EventBase, StyleBase):
 class Button(tk.Button, EventBase, StyleBase):
     @property
     def label(self):
-        return "0" # 暂无~
+        return self["text"]
 
     @label.setter
     def label(self, value):
@@ -268,7 +274,7 @@ class Button(tk.Button, EventBase, StyleBase):
 class Label(tk.Label, EventBase, StyleBase):
     @property
     def text2(self):
-        return "0" # 暂无~
+        return self["text"]
 
     @text2.setter
     def text2(self, value):

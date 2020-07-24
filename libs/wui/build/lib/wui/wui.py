@@ -1,5 +1,14 @@
 import tkinter as tk
 
+## ---------------------------------------------------------------------- 颜色属性
+class Color:
+    White = "white"
+    Blue = "blue"
+    LightBlue = "light blue"
+    Grey = "grey"
+    LightGrey = "light grey"
+    Black = "black"
+
 ## ---------------------------------------------------------------------- 事件名称
 class TouchEvent:
     TOUCH_TAP = "<Button-1>"
@@ -90,6 +99,12 @@ def openFileDialog():
 def alert(title:str, content:str):
     import tkinter.messagebox as mb
     mb.showinfo(title, content)
+
+## ---------------------------------------------------------------------- 带输入框的弹窗
+def askAlert(title:str, content:str):
+    import tkinter.simpledialog as dialog
+    answer = dialog.askstring(title, content)
+    return answer
 
 ## ---------------------------------------------------------------------- 拖拽
 ## 回调函数中参数为 文件绝对路径
@@ -188,6 +203,41 @@ class InputArea(tk.Text, EventBase, StyleBase):
     def text2(self, value):
         self.delete("1.0", tk.END)
         self.insert(1.0, value)
+    
+    @property
+    def editable(self):
+        return self["state"] == "normal"
+
+    @editable.setter
+    def editable(self, value:bool):
+        if value is True:
+            self["state"] = "normal"
+        else:
+            self["state"] = "disabled"
+    
+    @property
+    def bg(self):
+        return self["bg"]
+
+    @bg.setter
+    def bg(self, value:str):
+        self["bg"] = value
+    
+    @property
+    def selectBg(self):
+        return self["selectbackground"]
+
+    @selectBg.setter
+    def selectBg(self, value:str):
+        self["selectbackground"] = value
+    
+    @property
+    def selectFg(self):
+        return self["selectforeground"]
+
+    @selectFg.setter
+    def selectFg(self, value:str):
+        self["selectforeground"] = value
 
 ## ---------------------------------------------------------------------- 单行输入框
 class InputBox(tk.Entry, EventBase, StyleBase):
