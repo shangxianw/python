@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wui",
-    version="1.1.7",
+    version="1.1.8",
     author="ShangXian Wang",
     author_email="997049907@qq.om",
-    description="将wui的代码放到__init__中",
+    description="添加Group",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/shangxianw/wsxpy",

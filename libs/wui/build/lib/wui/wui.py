@@ -1,4 +1,6 @@
 import tkinter as tk
+from .EventBase import EventBase
+from .StyleBase import StyleBase
 
 ## ---------------------------------------------------------------------- 颜色属性
 class Color:
@@ -24,52 +26,6 @@ class KeyBoardEvent:
 
 class Event:
     ITEM_SELECT = "<<ListboxSelect>>"
-
-## ---------------------------------------------------------------------- 事件基础类
-class EventBase:
-    def addEventListener(self, type:str, cbFn):
-        self.bind(type, cbFn)
-    
-    def removeEventListener(self, type:str):
-        self.unbind(type)
-    
-## ---------------------------------------------------------------------- 样式基础类
-class StyleBase:
-    # 移除舞台
-    def removeSelf(self):
-        self.destroy()
-    @property
-    def x(self):
-        return 0 # 暂无~
-     
-    @x.setter
-    def x(self, value):
-        self.place(x=value)
-    
-    @property
-    def y(self):
-        return 0 # 暂无~
-     
-    @y.setter
-    def y(self, value):
-        self.place(y=value)
-    
-    @property
-    def width(self):
-        return 0 # 暂无~
-     
-    @width.setter
-    def width(self, value):
-        self.place(width=value)
-    
-    @property
-    def height(self):
-        return 0 # 暂无~
-     
-    @height.setter
-    def height(self, value):
-        self.place(height=value)
-    
 
 ## ---------------------------------------------------------------------- 封装组件
 ## ---------------------------------------------------------------------- 封装组件
