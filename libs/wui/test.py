@@ -11,9 +11,11 @@ win.setSize(400, 300)
 # group.height = 200
 
 
-com = wui.IOCom(win)
-com.x = 0
-com.y = 0
+com = wui.AskBtnLabelCom(win)
+com.x = 10
+com.y = 10
+com.setType(1)
+com.path
 
 
 win.mainloop()
