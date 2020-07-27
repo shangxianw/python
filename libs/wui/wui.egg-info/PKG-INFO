@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: wui
-Version: 1.1.6
-Summary: 开放组件
+Version: 1.1.7
+Summary: 将wui的代码放到__init__中
 Home-page: https://github.com/shangxianw/wsxpy
 Author: ShangXian Wang
 Author-email: 997049907@qq.om

@@ -11,14 +11,16 @@ import xlrd
 class Index:
     def __init__(self):
         os.chdir(os.path.dirname(os.path.abspath(__file__)))
-        self.configPath = "./_data/config.json"
+        self.configDir = "C:\\Users\\User\\AppData\\Excel2Png\\"
+        self.configFile = "config.json"
         self.configJson = None
         self.SaveKey = "saveDir"
         self.OriKey  = "oriDir"
 
         self.excel = None
         self.wb = None
-
+    
+    def start(self):
         self.win = wui.Panel()
         self.win.setTitle("excel内容存为图片")
         self.win.setSize(400, 170)
@@ -63,8 +65,8 @@ class Index:
         with open(path, "r", encoding="utf-8") as f:
             self.configJson = json.load(f)
         
-        self.lb1.text2 = self.configJson[self.SaveKey]
-        self.lb2.text2 = self.configJson[self.OriKey]
+        self.lb1.text2 = self.configJson[self.OriKey]
+        self.lb2.text2 = self.configJson[self.SaveKey]
         self.btn1.addEventListener(wui.TouchEvent.TOUCH_TAP, self.OnBtn1Tap)
         self.btn2.addEventListener(wui.TouchEvent.TOUCH_TAP, self.OnBtn2Tap)
         self.saveBtn.addEventListener(wui.TouchEvent.TOUCH_TAP, self.OnSaveTap)
@@ -143,11 +145,14 @@ class Index:
             return False
     
     def getConfig(self):
-        if getattr(sys, 'frozen', False): #是否Bundle Resource
-            base_path = sys._MEIPASS
-        else:
-            base_path = os.path.abspath(".")
-        return os.path.join(base_path, self.configPath)
+        if os.path.exists(self.configDir) is False:
+            os.mkdir(self.configDir)
+        path = self.configDir + self.configFile
+        if os.path.exists(path) is False:
+            with open(path, "w", encoding="utf-8") as f:
+                content = '{"saveDir": "C:/Users/User/Desktop", "oriDir": "./"}'
+                f.write(content)
+        return path
 
     ## ---------------------------------------------------------------------- Event
     ## ---------------------------------------------------------------------- Event
@@ -181,3 +186,4 @@ class Index:
 
 if __name__ == "__main__":
     d = Index()
+    d.start()
