@@ -1,22 +1,28 @@
-from wui.wui import TouchEvent
-from wui.wui import FocusEvent
-from wui.wui import KeyBoardEvent
-from wui.wui import Event
 
-from wui.wui import openFileDialog
-from wui.wui import openFileDialog
-from wui.wui import alert
-from wui.wui import dragfiles
-
-from wui.wui import Tk
-from wui.wui import Panel
-from wui.wui import Menu
-from wui.wui import SimpleList
-from wui.wui import Image
-from wui.wui import InputArea
-from wui.wui import InputBox
-from wui.wui import Button
-from wui.wui import Label
-from wui.wui import RadioButton
-
+from .Button import Button
+from .EventBase import EventBase
+from .EventBase import TouchEvent
+from .EventBase import FocusEvent
+from .EventBase import KeyBoardEvent
+from .EventBase import Event
 from .Group import Group
+from .Image import Image
+from .InputArea import InputArea
+from .InputBox import InputBox
+from .Label import Label
+from .Menu import Menu
+from .Panel import Panel
+from .RadioButton import RadioButton
+from .SimpleList import SimpleList
+from .StyleBase import StyleBase
+
+from .Dialog import openDirDialog
+from .Dialog import openFileDialog
+from .Dialog import alert
+from .Dialog import askAlert
+from .Dialog import dragfiles
+
+## 自定义组件
+from .IOCom import IOCom
+from .AskBtnLabel import AskBtnLabelCom
+from .AskBtnLabel import AskBtnLabelComType
