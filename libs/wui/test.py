@@ -20,5 +20,8 @@ com.path
 def aaa(e):
     wui.alert("1", "aaa")
 
+wui.Color
+wui.GlobalKey
+
 win.addGlobalKeyEvent((wui.GlobalKey.Ctrl, wui.GlobalKey.Two), aaa)
 win.mainloop()

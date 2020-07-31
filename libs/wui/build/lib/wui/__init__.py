@@ -22,6 +22,9 @@ from .IOCom import IOCom
 from .AskBtnLabel import AskBtnLabelCom
 from .AskBtnLabel import AskBtnLabelComType
 
+# 常量
+from .Color import Color
+
 # 事件
 from .EventBase import EventBase
 from .EventBase import TouchEvent

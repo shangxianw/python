@@ -1,14 +1,14 @@
-import setuptools
+﻿import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="wui",
-    version="1.1.10",
+    version="1.2.3",
     author="ShangXian Wang",
     author_email="997049907@qq.om",
-    description="将组件分开",
+    description="添加全局热键事件",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/shangxianw/wsxpy",

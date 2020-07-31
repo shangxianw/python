@@ -1,7 +1,7 @@
 import win32con
 import win32gui
 import os
-import wui2 as wui
+import wui
 import src.FolderData as FolderData
 import pyperclip as paste
 import system_hotkey as hotkey
@@ -18,9 +18,10 @@ class Main:
         self.win = wui.Panel()
         self.win.setTitle(self.winName)
         self.win.setSize(1070, 610)
-        self.win.resizable(False, False)
+        self.win.setResizeAble(False, False)
+        self.win.setMinBtnCB(self.showWinMin)
         # self.win.protocol("WM_DELETE_WINDOW", self.showWinMin) # 点击右上角关闭按钮
-        self.win.protocol("WM_MIN_WINDOW", self.showWinMin) # 点击右上角关闭按钮
+        # self.win.protocol("WM_MIN_WINDOW", self.showWinMin) # 点击右上角关闭按钮
         # self.win.bind("<FocusOut>", self.OnWinFocusOut)
         self.initView()
         self.win.mainloop()
