@@ -1,0 +1,37 @@
+module game
+{
+	class xxxData extends DataBase
+	{
+		public PackData()
+		{
+			
+		}
+	}
+
+	export class xxxMgr
+	{
+		public constructor()
+		{
+			this.Init()	
+		}
+
+		public Init()
+		{
+			
+		}
+
+		public Destroy()
+		{
+			
+		}
+		
+
+		private static instance:xxxMgr;
+		public static GetInstance():xxxMgr
+		{
+			if(xxxMgr.instance == null)
+				xxxMgr.instance = new xxxMgr();
+			return xxxMgr.instance;
+		}
+	}
+}

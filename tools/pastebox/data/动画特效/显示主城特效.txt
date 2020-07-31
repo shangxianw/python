@@ -1,0 +1,27 @@
+private xxx:ECSC.EffectBase;
+public xxxGroup:eui.Group;
+private ShowEffTween(show:boolean)
+{
+    if(this.xxx != null)
+    {
+        if(this.xxx.parent != null)
+            this.xxx.parent.removeChild(this.xxx);
+        RenderUtils.DestroyEffect2(SceneTypeConst.Home, this.xxx);
+        this.xxx = null;
+    };
+
+    if(show == true)
+    {
+        this.xxx = RenderUtils.CreateEffect(SceneTypeConst.Home, this.info.nameTweenId, 0, 0);
+        if(this.xxx != null && this.xxx.parent == null)
+        {
+            this.xxxGroup.visible = true;
+            this.xxxGroup.addChild(this.xxx);
+        }
+        else
+        {
+            this.xxxGroup.visible = false;
+            this.xxx.visible = true;
+        }
+    }
+}

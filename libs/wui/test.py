@@ -17,5 +17,8 @@ com.y = 10
 com.setType(1)
 com.path
 
+def aaa(e):
+    wui.alert("1", "aaa")
 
+win.addGlobalKeyEvent((wui.GlobalKey.Ctrl, wui.GlobalKey.Two), aaa)
 win.mainloop()

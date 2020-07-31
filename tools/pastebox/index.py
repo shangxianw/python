@@ -19,6 +19,9 @@ class Main:
         self.win.setTitle(self.winName)
         self.win.setSize(1070, 610)
         self.win.resizable(False, False)
+        # self.win.protocol("WM_DELETE_WINDOW", self.showWinMin) # 点击右上角关闭按钮
+        self.win.protocol("WM_MIN_WINDOW", self.showWinMin) # 点击右上角关闭按钮
+        # self.win.bind("<FocusOut>", self.OnWinFocusOut)
         self.initView()
         self.win.mainloop()
     
@@ -46,8 +49,7 @@ class Main:
     
     def initData(self):
         hk = hotkey.SystemHotkey()
-        hk.register(('control', 'period'), callback = self.OnHotKeyCB)
-        hk.register(('control', "2"), callback = self.OnHotKeyEsc)
+        hk.register(('control', '1'), callback = self.OnHotKeyCB)
 
         self.setBox3EditStyle(False)
         self.showBox1Content()
@@ -220,12 +222,13 @@ class Main:
             with open(path, "w", encoding="utf-8") as f:
                 f.write(self.box3.text2)
     
+    ## ---------------------------------------------------------------------- 窗口失去焦点
+    def OnWinFocusOut(self, e):
+        self.showWinMin()
+    
     ## ---------------------------------------------------------------------- 键盘监听
     def OnHotKeyCB(self, e):
         self.showWinActive()
-    
-    def OnHotKeyEsc(self, e):
-        self.showWinMin()
     
     def destroy(self):
         self.box1.removeEventListener(wui.Event.ITEM_SELECT)

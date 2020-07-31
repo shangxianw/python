@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wui",
-    version="1.1.9",
+    version="1.1.10",
     author="ShangXian Wang",
     author_email="997049907@qq.om",
     description="将组件分开",
