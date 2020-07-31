@@ -13,7 +13,7 @@ class Main:
         self.fileType = ".txt"
         self.folderArray = []
         self.fileArray = []
-        self.winName = "wsx的剪切板"
+        self.winName = "剪切板"
 
         self.win = wui.Panel()
         self.win.setTitle(self.winName)
@@ -52,7 +52,7 @@ class Main:
         self.win.addGlobalKeyEvent((wui.GlobalKey.Ctrl, wui.GlobalKey.One), self.OnHotKeyCB)
 
         self.setBox3EditStyle(False)
-        self.showBox1Content()
+        self.checkFolder()
 
         self.box1.addEventListener(wui.Event.ITEM_SELECT, self.OnBox1ItemTap)
         self.box1.addEventListener(wui.TouchEvent.RIGHT_TAP, self.OnBox1RightTap)
@@ -60,7 +60,15 @@ class Main:
         self.box2.addEventListener(wui.TouchEvent.RIGHT_TAP, self.OnBox2RightTap)
         self.box2.addEventListener(wui.TouchEvent.DOUBLE_TAP, self.OnBox2DoubleTap)
         self.box3.addEventListener(wui.TouchEvent.DOUBLE_TAP, self.OnBox3DoubleTap)
-    
+
+    def checkFolder(self):
+        # 应该也要检测是否存在另一个进程
+        try:
+            self.showBox1Content()
+        except(BaseException):
+            wui.alert("error", "请在软件同名目录添加 data 文件夹")
+            self.win.destroy()
+
     def showBox1Content(self):
         self.folderArray = []
         fileArray = os.listdir(self.baseDir)
