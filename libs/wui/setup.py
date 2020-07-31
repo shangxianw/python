@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="wui",
-    version="1.2.3",
+    version="1.2.4",
     author="ShangXian Wang",
     author_email="997049907@qq.om",
     description="添加全局热键事件",

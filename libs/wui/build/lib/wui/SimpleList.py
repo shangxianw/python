@@ -9,7 +9,7 @@ class SimpleList(tk.Listbox, EventBase, StyleBase):
         # exportselection 防止失去焦点时，选中状态变为未选中
         # activestyle 去掉选中时的下划线效果
         super(SimpleList, self).__init__(master, activestyle="none", exportselection=False)
-        self.addEventListener(FocusEvent.FOCUS_IN, self.__OnFocusIn)
+        # self.addEventListener(FocusEvent.FOCUS_IN, self.__OnFocusIn)
 
     @property
     def selectIndex(self):

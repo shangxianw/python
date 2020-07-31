@@ -49,8 +49,7 @@ class Main:
         self.initData()
     
     def initData(self):
-        hk = hotkey.SystemHotkey()
-        hk.register(('control', '1'), callback = self.OnHotKeyCB)
+        self.win.addGlobalKeyEvent((wui.GlobalKey.Ctrl, wui.GlobalKey.One), self.OnHotKeyCB)
 
         self.setBox3EditStyle(False)
         self.showBox1Content()
