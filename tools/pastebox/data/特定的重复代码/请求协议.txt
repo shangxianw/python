@@ -1,0 +1,12 @@
+public static C2SAskKa(kaId:number)
+		{
+			let isTest = true;
+			if(!isTest)
+			{
+
+			}
+			else
+			{
+				
+			}
+		}
