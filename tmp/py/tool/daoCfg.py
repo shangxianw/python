@@ -19,7 +19,7 @@ class CopyCfg(object):
 	def init(self):
 		self.toolPath    = "D:/work/design/导表/";
 		self.toolName    = "导表工具.bat";
-		self.oriPath     = "D:/work/design/导表/";
+		self.oriPath     = "D:/work/design/导表/export/resource/config/";
 		self.tarPath     = "D:/work/code/client/EgerPro_5_2_9/resource/config/";
 		self.rmFileArray = ["serverdata.json"];
 	######################################################################

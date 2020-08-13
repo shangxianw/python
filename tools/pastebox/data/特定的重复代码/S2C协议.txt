@@ -1,3 +1,4 @@
+// ---------------------------------------------------------------------- 发出捐卡请求
 public static S2CSendInfo(cmdDataBA:egret.ByteArray)
 		{
 			let info = Protocol.SendFamilyChat_Respond.decode(cmdDataBA.bytes);
