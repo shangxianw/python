@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-console",
+  "version": "0.0.0",
+  "main": "./out/main.js",
+  "dependencies": {
+    "node-xlsx": "^0.15.0"
+  },
+  //其他配置项
+    "bin": "./out/main.js",//指定入口文件
+    "pkg": {
+        "assets": [
+            
+        ]
+    }
+}
